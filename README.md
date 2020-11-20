@@ -18,12 +18,15 @@ mv geckodriver ~/.local/bin
 
 
 
-## Diseno de pruebas
+## Disenho de casos de pruebas
 
 
 
-## Implementacion 
+## Implementacion scripts de prueba
 
 
 
-## Resultados
+## Ejecutar los scripts de prueba
+
+
+## Resultados de ejecucion
