@@ -1,0 +1,10 @@
+1605896434562	geckodriver	INFO	Listening on 127.0.0.1:40381
+1605896434568	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6AbWQU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605896438030	Marionette	INFO	Listening on port 44429
+1605896438104	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605896445831	Marionette	INFO	Stopped listening on port 44429
