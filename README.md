@@ -45,7 +45,7 @@ Se creo 2 archivos **main.py** y **test.py** que se detallaran cada uno a contin
 
 Se importo las librerias necesarias
 
-```
+```python
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
@@ -53,7 +53,7 @@ from time import sleep
 
 Tambien se creo la clase **TestCalculator**, que posee un contructor en el cual se vinculara el navegador y posteriormente el link de [Percentage Calculator](https://www.calculator.net/percent-calculator.html)
 
-```
+```python
 class TestCalculator:
     def __init__(self, link):
         self.browser = webdriver.Firefox()
@@ -63,7 +63,7 @@ class TestCalculator:
 Se creo una funcion para testear Percentage Calculator 
 
 
-```
+```python
     def PCalculator(self, num1, num2):
         var1 = self.browser.find_element_by_id('cpar1')
         var1.clear()
@@ -80,7 +80,7 @@ Se creo una funcion para testear Percentage Calculator
 
 Se creo tres funciones para testear cada uno de las secciones que posee Percentage Calculator in Common Phrases 
 
-```
+```python
     def PinCommon_1(self, num1, num2):
         var1 = self.browser.find_element_by_name('c21par1')
         var1.clear()
@@ -123,7 +123,7 @@ Se creo tres funciones para testear cada uno de las secciones que posee Percenta
 Se creo una funcion para testear Difference Calculator
 
 
-```
+```python
     def PDiffCalculator(self, num1, num2):
         var1 = self.browser.find_element_by_name('c3par1')
         var1.clear()
@@ -140,7 +140,7 @@ Se creo una funcion para testear Difference Calculator
 Se creo dos funciones para testear Percentage Change Calculator cuando sea Increase y Decrease.
 
 
-```
+```python
     def PChange_Decrease(self, num1, num2):
         var1 = self.browser.find_element_by_name('c2par1')
         var1.clear()
@@ -174,7 +174,7 @@ Se creo dos funciones para testear Percentage Change Calculator cuando sea Incre
 
 Por ultimo se implemento una funcion que testeara todas las funciones anteriormente implementadas tomando 2 valores como paramentro y un tiempo de espera entre cada uno.
 
-```
+```python
     def all_test(self, a, b, time_sleep):
         self.PCalculator(a, b)
         sleep(time_sleep)
@@ -202,7 +202,7 @@ Por ultimo se implemento una funcion que testeara todas las funciones anteriorme
 Se importo las librerias necesarias
 
 
-```
+```python
 #!/usr/bin/env python
 
 from selenium import webdriver
@@ -214,14 +214,14 @@ from test import TestCalculator
 Se inicializo la clase TestCalculator tomando como paramentro la pagina de [Percentage Calculator](https://www.calculator.net/percent-calculator.html)
 
 
-```
+```python
 test = TestCalculator('https://www.calculator.net/percent-calculator.html')
 ```
 
 Se crearon las variables que se pondra como paramentros a testear y el tiempo de espera
 
 
-```
+```python
 num1 = '10'
 num2 = '40'
 letters = 'AgB'
@@ -234,7 +234,7 @@ time_slepp = 5
 
 Por ultimo se realizo los tests correspondientes a los disenados en los casos de Prueba del [excel](https://docs.google.com/spreadsheets/d/1vGCghKzJ5diF-tdF4vlKCQdwj7bJsukwmA518IvGXug/edit?usp=sharing)
 
-```
+```python
 test.all_test(num1, num2, time_slepp)
 test.all_test(num1, letters, time_slepp)
 test.all_test(num1, characters, time_slepp)
@@ -259,3 +259,4 @@ make test
 
 
 ## Resultados de ejecucion
+

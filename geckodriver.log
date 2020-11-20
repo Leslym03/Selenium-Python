@@ -8,3 +8,56 @@ JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691:
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1605896445831	Marionette	INFO	Stopped listening on port 44429
+1605898334136	geckodriver	INFO	Listening on 127.0.0.1:58605
+1605898334142	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJJkWmc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605898337618	Marionette	INFO	Listening on port 34967
+1605898337682	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605898416266	Marionette	INFO	Stopped listening on port 34967
+1605898468499	geckodriver	INFO	Listening on 127.0.0.1:40695
+1605898468505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiled4Dn4K"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605898472572	Marionette	INFO	Listening on port 35437
+1605898472649	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+1605898491516	Marionette	INFO	Stopped listening on port 35437
+1605898524123	geckodriver	INFO	Listening on 127.0.0.1:55245
+1605898524128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRTDLDc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605898527996	Marionette	INFO	Listening on port 36501
+1605898528065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/14827238956157683868/528-300x250-g/index.html#t=8425174532684794757&p=https%3A%2F%2F66efef48f695d946e06c3060bcdd24ed.safeframe.googlesyndication.com, line 133: TypeError: a.a is null
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.
+JavaScript error: https://www.gstatic.com/mysidia/48f2f5ef1106bf615cd568eafbe346a9.js?tag=video_mra/web_raspberry, line 166: SecurityError: The operation is insecure.

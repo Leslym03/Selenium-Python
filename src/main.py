@@ -15,7 +15,7 @@ characters = '$*^1'
 invalid1 = 'Ab23$%'
 invalid2 = 'By52$%'
 
-time_slepp = 5
+time_slepp = 2
 
 test.all_test(num1, num2, time_slepp)
 test.all_test(num1, letters, time_slepp)
