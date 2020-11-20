@@ -7,7 +7,7 @@ class InputFormsCheck(unittest.TestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
-        self.browser.get('https://www.calculator.net/percent-calculator.html')
+        self.browser.get("https://www.calculator.net/percent-calculator.html")
         self.browser.maximize_window()
         self.browser.implicitly_wait(10)
 
