@@ -1,5 +1,34 @@
 # Selenium-Python
 
+## Tabla de Contenido
+
+- [Configuracion de entorno](##Configuracion-de-entorno)
+
+- [Disenho de casos de pruebas](##Disenho-de-casos-de-pruebas)
+
+- [Implementacion scripts de prueba](##Implementacion-scripts-de-prueba)
+
+    - [test.py](##test.py)
+
+    - [main.py](##main.py)
+
+    - [Ejecutar los scripts de prueba](##Ejecutar-los-scripts-de-prueba)
+
+    - [Resultados de ejecucion](##Resultados-de-ejecucion)
+
+- [Implementacion con unittest](##Implementacion-con-unittest)
+
+
+    - [Ejecutar los scripts unittest](##Ejecutar-los-scripts-unittest)
+
+    - [Resultados de ejecucion unittest](##Resultados-de-ejecucion)
+
+
+
+
+
+
+
 
 ## Configuracion de entorno
 
@@ -260,3 +289,73 @@ make test
 
 ## Resultados de ejecucion
 
+<p align="center">
+  <img src="img/make_test.png">
+</p>
+
+<p align="center">
+  <img src="img/testselenium.gif">
+</p>
+
+
+## Implementacion con unittest
+
+Se creo un nuevo archivo **unittestCal.py** en el cual se utilizara Unittest de python.
+
+
+Se importo las librerias necesarias
+
+
+```python
+import unittest
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from time import sleep
+```
+
+Tambien se creo la clase **InputFormsCheck**, en la cual se inicializa la pagina de [Percentage Calculator](https://www.calculator.net/percent-calculator.html)
+en la cual se realizo 2 test uno al maximizar y otro a que no supere los 10 segundos.
+
+```python
+class InputFormsCheck(unittest.TestCase):
+
+    def setUp(self):
+        self.browser = webdriver.Firefox()
+        self.browser.get('https://www.calculator.net/percent-calculator.html')
+        self.browser.maximize_window()
+        self.browser.implicitly_wait(10)
+```
+
+A las funciones anteriormente implementadas se le agrego la siguiente linea de codigo en la parte final, que verificara si existe o no un resultado
+
+```python
+self.assertTrue(self.browser.find_element_by_class_name('h2result'))
+```
+
+Para terminar se inicializa las pruebas
+```python
+if __name__ == "__main__":
+    unittest.main()
+```
+
+
+
+
+
+
+
+## Ejecutar los scripts unittest
+
+Para la ejecucion se creo un archivo **Makefile**, por ello se puede ejecutar el test a travez del comando
+
+```
+make unittest
+```
+
+
+
+## Resultados de ejecucion unittest
+
+<p align="center">
+  <img src="img/unittest.png">
+</p>
